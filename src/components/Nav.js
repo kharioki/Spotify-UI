@@ -17,6 +17,10 @@ const Nav = () => {
         <li>Search</li>
         <li>Your Library</li>
       </ul>
+      <div className="cookies">
+        <span>Cookies</span>
+        <span>Privacy Policy</span>
+      </div>
     </div>
   );
 };
