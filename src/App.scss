@@ -1,6 +1,7 @@
 $greyDark: #040404;
 $greyLight: #131313;
 $greyLigher: #202020;
+$greyText: #b3b3b3;
 
 .outerWrap {
   background: grey;
@@ -17,6 +18,7 @@ $greyLigher: #202020;
   width: 250px;
   height: 100%;
   background: $greyDark;
+  padding: 10px;
 
   .logo {
     padding: 1.5rem 1.5rem;
@@ -24,6 +26,25 @@ $greyLigher: #202020;
       max-width: 130px;
       p {
         fill: white;
+      }
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      color: $greyText;
+      list-style-type: none;
+      border-radius: 5px;
+      padding: 0.7rem;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      &.active {
+        background: $greyLigher;
+      }
+      &:hover {
+        color: white;
       }
     }
   }

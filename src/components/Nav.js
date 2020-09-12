@@ -13,7 +13,7 @@ const Nav = () => {
         </svg>
       </div>
       <ul>
-        <li>Home</li>
+        <li className="active">Home</li>
         <li>Search</li>
         <li>Your Library</li>
       </ul>
