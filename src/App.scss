@@ -4,8 +4,22 @@ $greyLigher: #202020;
 $greyText: #b3b3b3;
 $greyNav: #090909;
 
+@font-face {
+  font-family: circular-book;
+  src: url(./fonts/CircularStd-Book.otf);
+}
+
+@font-face {
+  font-family: circular-bold;
+  src: url(./fonts/CircularStd-Bold.otf);
+}
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: circular-book;
 }
 
 .outerWrap {
@@ -22,7 +36,7 @@ $greyNav: #090909;
 
 .navBar {
   width: 228px;
-  height: calc(100% - 10px);
+  height: 100%;
   background: $greyDark;
   padding: 10px;
   display: flex;
