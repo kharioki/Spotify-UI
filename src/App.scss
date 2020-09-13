@@ -4,6 +4,10 @@ $greyLigher: #202020;
 $greyText: #b3b3b3;
 $greyNav: #090909;
 
+* {
+  box-sizing: border-box;
+}
+
 .outerWrap {
   background: grey;
   height: 100vh;
